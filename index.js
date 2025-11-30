@@ -73,4 +73,7 @@ const server = http.createServer((req, res) => {
 });
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
+
+// PM2 自动保存状态（崩溃后恢复）
+process.on('exit', () => pm2.trigger('pm2 save'));
 });

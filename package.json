@@ -9,7 +9,8 @@
   "scripts": {
     "start": "node index.js",
     "pm2start": "pm2 start ecosystem.config.js",
-    "pm2resurrect": "pm2 resurrect"
+    "pm2resurrect": "pm2 resurrect",
+    "pm2save": "pm2 save"
   },
   "engines": {
     "node": ">=14"

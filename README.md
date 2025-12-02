@@ -5,7 +5,7 @@
 
 bash
 # 语法:
-# curl -sL <Raw_File_Url> | bash -s -- -t <你的Token> -d <你的域名> -u <自定义UUID>
+# curl -sL <Raw_File_Url> | bash -s -- -t <你的Token> -d <你的域名> [-u <自定义UUID]
 
 curl -sL https://raw.githubusercontent.com/yourname/sap-bas-proxy/main/setup.sh | bash -s -- -t eyJhIjoi... -d sap.example.com
 参数说明：

@@ -5,9 +5,9 @@
 
 bash
 # 语法:
-# curl -sL <Raw_File_Url> | bash -s -- -t <你的Token> -d <你的域名> [-u <自定义UUID]
+# curl -sL <Raw_File_Url> | bash -s -- -t <你的Token> -d <你的域名> [-u 自定义UUID]
 
-curl -sL https://raw.githubusercontent.com/yourname/sap-bas-proxy/main/setup.sh | bash -s -- -t eyJhIjoi... -d sap.example.com
+curl -sL https://raw.githubusercontent.com/yourname/sap-bas-proxy/main/setup.sh | bash -s -- -t eyJhIjoi... -d sap.example.com -u ee84020a-1323-4c9b-a386-d10742ee1ebd
 参数说明：
 
 -t: 必须。Cloudflare Tunnel 的 Token。
